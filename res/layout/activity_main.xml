@@ -13,6 +13,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="59dp"
-        android:text="Button" />
+        android:text="@string/button111" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonclick2"
+        android:layout_below="@+id/buttonclick2"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="59dp"
+        android:ems="10"
+        android:inputType="text">
+
+        <requestFocus />
+    </EditText>
 
 </RelativeLayout>
