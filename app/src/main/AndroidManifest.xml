@@ -32,6 +32,22 @@
             android:name=".Back"
             android:label="@string/title_activity_back" >
         </activity>
+        <activity
+            android:name=".Shoulders"
+            android:label="@string/title_activity_shoulders" >
+        </activity>
+        <activity
+            android:name=".Chest"
+            android:label="@string/title_activity_chest" >
+        </activity>
+        <activity
+            android:name=".Legs"
+            android:label="@string/title_activity_legs" >
+        </activity>
+        <activity
+            android:name=".bmi"
+            android:label="BMI Calculator" >
+        </activity>
     </application>
 
 </manifest>
