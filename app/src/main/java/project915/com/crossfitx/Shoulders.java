@@ -1,13 +1,19 @@
 package project915.com.crossfitx;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.net.Uri;
+=======
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
+=======
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
 
 
 public class Shoulders extends ActionBarActivity {
@@ -16,6 +22,7 @@ public class Shoulders extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_shoulders);
+<<<<<<< HEAD
         addButtonClickListener4();
     }
 
@@ -77,6 +84,11 @@ public class Shoulders extends ActionBarActivity {
         });
 
     }
+=======
+    }
+
+
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

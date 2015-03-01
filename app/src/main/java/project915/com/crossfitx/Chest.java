@@ -1,13 +1,19 @@
 package project915.com.crossfitx;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.net.Uri;
+=======
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< HEAD
 import android.view.View;
 import android.widget.Button;
+=======
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
 
 
 public class Chest extends ActionBarActivity {
@@ -16,6 +22,7 @@ public class Chest extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chest);
+<<<<<<< HEAD
         addButtonClickListener2();
     }
 
@@ -76,6 +83,8 @@ public class Chest extends ActionBarActivity {
             }
         });
 
+=======
+>>>>>>> 9b95669e1caf1c41af37eaaa40f07c3e64420edb
     }
 
 
