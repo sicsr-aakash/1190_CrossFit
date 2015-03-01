@@ -52,6 +52,8 @@ public class LandingPageActivity extends ListActivity {
 
         listValues.add("Legs");
 
+        listValues.add("Calculate BMI");
+
 
 
         // initiate the listadapter
@@ -107,6 +109,12 @@ public class LandingPageActivity extends ListActivity {
                 intent = new Intent(this, Legs.class);
                 startActivity(intent);
                 break;
+
+            case 5:
+                intent = new Intent(this, bmi.class);
+                startActivity(intent);
+                break;
+
             default:
                 break;
         }

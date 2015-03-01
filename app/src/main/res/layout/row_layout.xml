@@ -10,7 +10,8 @@
     android:padding="10dp"
     android:textSize="18sp"
    android:textStyle="bold"
-   android:textColor="#ff00ff" />
+   android:textColor="#ff00ff"
+    android:layout_gravity="center_vertical"/>
 
 
 

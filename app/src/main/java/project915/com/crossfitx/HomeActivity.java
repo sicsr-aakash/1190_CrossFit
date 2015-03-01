@@ -17,6 +17,8 @@ public class HomeActivity extends Activity {
         setContentView(R.layout.activity_home);
 
         final Button button = (Button)findViewById(R.id.mainpagebut1);
+
+
        button.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
 

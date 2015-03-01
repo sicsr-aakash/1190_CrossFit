@@ -10,80 +10,78 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Back extends ActionBarActivity {
+public class Legs extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_back);
-        addButtonClickListener5();
+        setContentView(R.layout.activity_legs);
+        addButtonClickListener3();
     }
 
-    private void addButtonClickListener5() {
+    private void addButtonClickListener3() {
 
-        Button back1 = (Button)findViewById(R.id.button14);
-        back1.setOnClickListener(new View.OnClickListener() {
+        Button leg1 = (Button)findViewById(R.id.button20);
+        leg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/bent-over-barbell-row"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/barbell-squat"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back2 = (Button)findViewById(R.id.button15);
-        back2.setOnClickListener(new View.OnClickListener() {
+        Button leg2 = (Button)findViewById(R.id.button21);
+        leg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/v-bar-pulldown"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/dumbbell-lunges"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back3 = (Button)findViewById(R.id.button16);
-        back3.setOnClickListener(new View.OnClickListener() {
+        Button leg3 = (Button)findViewById(R.id.button22);
+        leg3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/hyperextensions-back-extensions"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/leg-press"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back4 = (Button)findViewById(R.id.button17);
-        back4.setOnClickListener(new View.OnClickListener() {
+        Button leg4 = (Button)findViewById(R.id.button23);
+        leg4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/stiff-leg-barbell-good-morning"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/leg-extensions"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back5 = (Button)findViewById(R.id.button18);
-        back5.setOnClickListener(new View.OnClickListener() {
+        Button leg5 = (Button)findViewById(R.id.button24);
+        leg5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/barbell-shrug-behind-the-back"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/barbell-deadlift"));
                     startActivity(intent);
                 }
             }
         });
-
 
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_back, menu);
+        getMenuInflater().inflate(R.menu.menu_legs, menu);
         return true;
     }
 

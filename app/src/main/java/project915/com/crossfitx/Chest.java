@@ -10,72 +10,71 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class Back extends ActionBarActivity {
+public class Chest extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_back);
-        addButtonClickListener5();
+        setContentView(R.layout.activity_chest);
+        addButtonClickListener2();
     }
 
-    private void addButtonClickListener5() {
+    private void addButtonClickListener2() {
 
-        Button back1 = (Button)findViewById(R.id.button14);
-        back1.setOnClickListener(new View.OnClickListener() {
+        Button chest1 = (Button)findViewById(R.id.button26);
+        chest1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/bent-over-barbell-row"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/barbell-bench-press-medium-grip"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back2 = (Button)findViewById(R.id.button15);
-        back2.setOnClickListener(new View.OnClickListener() {
+        Button chest2 = (Button)findViewById(R.id.button27);
+        chest2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/v-bar-pulldown"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/incline-dumbbell-press"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back3 = (Button)findViewById(R.id.button16);
-        back3.setOnClickListener(new View.OnClickListener() {
+        Button chest3 = (Button)findViewById(R.id.button28);
+        chest3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/hyperextensions-back-extensions"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/dumbbell-flyes"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back4 = (Button)findViewById(R.id.button17);
-        back4.setOnClickListener(new View.OnClickListener() {
+        Button chest4 = (Button)findViewById(R.id.button29);
+        chest4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/stiff-leg-barbell-good-morning"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/dips-chest-version"));
                     startActivity(intent);
                 }
             }
         });
 
-        Button back5 = (Button)findViewById(R.id.button18);
-        back5.setOnClickListener(new View.OnClickListener() {
+        Button chest5 = (Button)findViewById(R.id.button30);
+        chest5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 {
-                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/barbell-shrug-behind-the-back"));
+                    Intent intent=new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.bodybuilding.com/exercises/main/popup/name/pushups"));
                     startActivity(intent);
                 }
             }
         });
-
 
     }
 
@@ -83,7 +82,7 @@ public class Back extends ActionBarActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_back, menu);
+        getMenuInflater().inflate(R.menu.menu_chest, menu);
         return true;
     }
 

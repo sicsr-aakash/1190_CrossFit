@@ -8,5 +8,10 @@
     <string name="title_activity_landing_page">LandingPageActivity</string>
     <string name="title_activity_arms">Arms</string>
     <string name="title_activity_back">Back</string>
+    <string name="title_activity_shoulders">Shoulders</string>
+    <string name="title_activity_chest">Chest</string>
+    <string name="title_activity_legs">Legs</string>
+    <string name="title_activity_bmi">bmi</string>
+    <string name="EmptyString"></string>
 
 </resources>
